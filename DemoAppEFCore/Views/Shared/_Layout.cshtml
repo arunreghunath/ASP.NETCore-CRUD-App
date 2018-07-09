@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+<body>
+    <div>
+        <div class="p-2">
+            <h4 class="bg-primary text-center p-2 text-white">@ViewData["Title"]</h4>
+            @RenderBody()
+        </div>
+    </div>
+</body>
+</html>
